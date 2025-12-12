@@ -74,7 +74,6 @@ class ProbabilitySimulator:
         results = self.calculate_probabilities(frequencies, num_trials)
         self.display_results(results, num_trials)
 
-
 class ExpectationCalculator:
     def __init__(self):
         self.values = []
@@ -169,7 +168,6 @@ class ExpectationCalculator:
         
         self.display_calculations(expectation, variance, std_dev)
 
-
 def main():
     print("\n" + "="*70)
     print("  DISCRETE STRUCTURES 2 - PROBABILITY & EXPECTATION SIMULATOR")
@@ -207,4 +205,5 @@ def main():
             print("\nInvalid choice. Please select 1-4.")
 
 if __name__ == "_main_":
+
     main()
